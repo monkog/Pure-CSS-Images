@@ -1,0 +1,55 @@
+.mushroom {
+    position: absolute;
+    display: block;
+    width: 5%;
+    height: 5%;
+    z-index: 3;
+}
+
+.mushroom-1 {
+    top: 15%;
+    left: 47%;
+    transform: rotate(15deg);
+}
+
+.mushroom-2 {
+    top: 55%;
+    left: 47%;
+    transform: rotate(-55deg);
+}
+
+.mushroom-3 {
+    top: 35%;
+    left: 75%;
+    transform: rotate(115deg);
+}
+
+.mushroom-4 {
+    top: 45%;
+    left: 10%;
+    transform: rotate(50deg);
+}
+
+.mushroom-5 {
+    top: 85%;
+    left: 57%;
+    transform: rotate(15deg);
+}
+
+.mushroom-hat {
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    background: rgb(168, 168, 168);
+}
+
+.mushroom-root {
+    position: absolute;
+    width: 200%;
+    height: 100%;
+    top: -100%;
+    left: -60%;
+    border-top-left-radius: 100% 200%;
+    border-top-right-radius: 100% 200%;
+    background: rgb(168, 168, 168);
+}

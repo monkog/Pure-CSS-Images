@@ -1,0 +1,106 @@
+.salami {
+    position: absolute;
+    height: 25%;
+    width: 25%;
+    border-radius: 50%;
+    background: #860000;
+    z-index: 3;
+}
+
+.salami-1 {
+    top: 45%;
+    left: 10%;
+}
+
+.salami-2 {
+    top: 15%;
+    left: 53%;
+   transform: rotate(40deg);
+}
+
+.salami-3 {
+    top: 15%;
+    left: 20%;
+    transform: rotate(150deg);
+}
+
+.salami-4 {
+    top: 45%;
+    left: 65%;
+    transform: rotate(-40deg);
+}
+
+.salami-5 {
+    top: 65%;
+    left: 37%;
+    transform: rotate(120deg);
+}
+
+.salami-dot {
+    position: absolute;
+    border-radius: 50%;
+    background: #ff9797;
+}
+
+.dot-1 {
+    top: 45%;
+    left: 20%;
+    height: 7%;
+    width: 7%;
+}
+
+.dot-2 {
+    top: 10%;
+    left: 33%;
+    height: 9%;
+    width: 9%;
+}
+
+.dot-3 {
+    top: 33%;
+    left: 50%;
+    height: 7%;
+    width: 7%;
+}
+
+.dot-4 {
+    top: 80%;
+    left: 40%;
+    height: 9%;
+    width: 9%;
+}
+
+.dot-5 {
+    top: 65%;
+    left: 70%;
+    height: 10%;
+    width: 10%;
+}
+
+.dot-6 {
+    top: 20%;
+    left: 70%;
+    height: 5%;
+    width: 5%;
+}
+
+.dot-7 {
+    top: 45%;
+    left: 85%;
+    height: 5%;
+    width: 5%;
+}
+
+.dot-8 {
+    top: 60%;
+    left: 45%;
+    height: 4%;
+    width: 4%;
+}
+
+.dot-9 {
+    top: 70%;
+    left: 20%;
+    height: 4%;
+    width: 4%;
+}

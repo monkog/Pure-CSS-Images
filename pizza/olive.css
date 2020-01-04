@@ -1,0 +1,59 @@
+.olive {
+    position: absolute;
+    display: block;
+    width: 3%;
+    height: 3%;
+    border: 8px solid black;
+    border-radius: 50%;
+    z-index: 4;
+}
+
+.olive-1 {
+    top: 35%;
+    left: 10%;
+}
+
+.olive-2 {
+    top: 10%;
+    left: 35%;
+}
+
+.olive-3 {
+    top: 30%;
+    left: 50%;
+}
+
+.olive-4 {
+    top: 50%;
+    left: 30%;
+}
+
+.olive-5 {
+    top: 40%;
+    left: 85%;
+}
+
+.olive-6 {
+    top: 65%;
+    left: 80%;
+}
+
+.olive-7 {
+    top: 45%;
+    left: 60%;
+}
+
+.olive-8 {
+    top: 75%;
+    left: 20%;
+}
+
+.olive-9 {
+    top: 84%;
+    left: 60%;
+}
+
+.olive-10 {
+    top: 65%;
+    left: 50%;
+}
