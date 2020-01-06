@@ -1,0 +1,264 @@
+body {
+    background: #28b463;
+}
+
+.box {
+    position: relative;
+    margin: auto;
+    display: block;
+    margin-top: 6%;
+    width: 600px;
+    height: 400px;
+    background: none;
+}
+
+.head {
+    position: absolute;
+    display: block;
+    top: 19%;
+    left: 32%;
+    width: 36%;
+    height: 35%;
+    background: #e8b327;
+    border-radius: 50%;
+}
+
+.ear {
+    position: absolute;
+    display: block;
+    width: 8%;
+    height: 40%;
+    top: 10%;
+    background: #e8b327;
+    border-top-left-radius: 200% 100%;
+    border-bottom-left-radius: 200% 100%;
+}
+
+.ear-left {
+    left: 38%;
+    transform: rotate(-38deg);
+}
+
+.ear-right {
+    right: 38%;
+    transform: scaleX(-1) rotate(-38deg);
+}
+
+.butt {
+    position: absolute;
+    display: block;
+    top: 30%;
+    width: 40%;
+    height: 57%;
+    background: #e8b327;
+    border-radius: 50%;
+}
+
+.butt-left {
+    left: 21%;
+    transform: rotate(20deg);
+}
+
+.butt-right {
+    right: 21%;
+    transform: rotate(-20deg);
+}
+
+.butt-inner {
+    position: absolute;
+    display: block;
+    top: 42%;
+    width: 30%;
+    height: 46%;
+    background: white;
+    border-radius: 46%;
+}
+
+.butt-inner-left {
+    left: 29%;
+    transform: rotate(-15deg);
+}
+
+.butt-inner-right {
+    right: 29%;
+    transform: rotate(15deg);
+}
+
+.foot {
+    position: absolute;
+    display: block;
+    top: 75%;
+    width: 14%;
+    height: 15%;
+    background: white;
+    border-radius: 47%;
+}
+
+.left-foot {
+    left: 25%;
+    transform: rotate(15deg);
+}
+
+.right-foot {
+    right: 25%;
+    transform: scaleX(-1) rotate(15deg);
+}
+
+.toe {
+    position: absolute;
+    display: block;
+    background: black;
+    border-radius: 50%;
+}
+
+.toe-1 {
+    top: 50%;
+    left: 6%;
+    width: 19%;
+    height: 21%;
+    transform: rotate(-40deg);
+}
+
+.toe-2 {
+    top: 66%;
+    left: 28%;
+    width: 20%;
+    height: 22%;
+    transform: rotate(-80deg);
+}
+
+.toe-3 {
+    top: 62%;
+    left: 56%;
+    width: 20%;
+    height: 23%;
+    transform: rotate(70deg);
+}
+
+.paw-inner {
+    position: absolute;
+    display: block;
+    width: 32%;
+    height: 29%;
+    background: black;
+    border-radius: 50%;
+}
+
+.paw-inner-left {
+    top: 21%;
+    left: 25%;
+    transform: rotate(60deg);
+}
+
+.paw-inner-right {
+    top: 24%;
+    right: 31%;
+    transform: rotate(-40deg);
+}
+
+.butthole {
+    position: absolute;
+    display: block;
+    background: black;
+    width: 1%;
+    height: 5%;
+    top: 50%;
+    left: 49%;
+    border-radius: 30%;
+}
+
+.butthole-1 {
+    transform: rotate(-45deg);
+}
+
+.butthole-2 {
+    transform: rotate(45deg);
+}
+
+.tail {
+    position: absolute;
+    display: block;
+    width: 7%;
+    height: 9%;
+    background: #e8b327;
+    -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    transform: rotate(180deg);
+}
+
+.tail-left {
+    top: 39%;
+    left: 43%;
+}
+
+.tail-center {
+    top: 42%;
+    left: 46%;
+}
+
+.tail-right {
+    top: 39%;
+    left: 49%;
+}
+
+.fringe {
+    position: absolute;
+    display: block;
+    width: 5%;
+    height: 5%;
+    background: white;
+    -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.fringe-1 {
+    top: 19.1%;
+    left: 47.5%;
+    transform: rotate(180deg);  
+}
+
+.fringe-2 {
+    top: 21%;
+    left: 47%;
+    transform: rotate(120deg);
+}
+
+.fringe-3 {
+    top: 20.5%;
+    left: 48%;
+    transform: rotate(-30deg);
+}
+
+.whiskers {
+    position: absolute;
+    display: block;
+    width: 3%;
+    height: 9%;
+    background: #e8b327;
+    -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.whiskers-left-1 {
+    transform: rotate(-90deg);
+    top: 24%;
+    left: 33%;
+}
+
+.whiskers-left-2 {
+    transform: rotate(-90deg);
+    top: 26%;
+    left: 32%;
+}
+
+.whiskers-right-1 {
+    transform: rotate(90deg);
+    top: 24%;
+    right: 33%;
+}
+
+.whiskers-right-2 {
+    transform: rotate(90deg);
+    top: 26%;
+    right: 32%;
+}
