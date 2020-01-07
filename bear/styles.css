@@ -1,0 +1,117 @@
+body {
+    background: rgb(64, 152, 168);
+}
+
+.box {
+    position: relative;
+    margin: auto;
+    display: block;
+    margin-top: 8%;
+    width: 600px;
+    height: 420px;
+    background: none;
+}
+
+.head {
+    position: absolute;
+    top: 16.5%;
+    left: 27%;
+    width: 46%;
+    height: 67%;
+    background: rgb(102, 52, 10);
+    border-radius: 50%;
+}
+
+.ear {
+    position: absolute;
+    top: -10%;
+    width: 40%;
+    height: 60%;
+    background: rgb(102, 52, 10);
+    border-radius: 50%;
+}
+
+.ear-left {
+    left: -7%;
+    transform: rotate(-20deg);
+}
+
+.ear-right {
+    right: -7%;
+    transform: rotate(20deg);
+}
+
+.inner-ear {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    width: 60%;
+    height: 60%;
+    background: rgb(148, 72, 116);
+    border-radius: 50%;
+}
+
+.snout {
+    position: absolute;
+    top: 45%;
+    left: 30%;
+    width: 40%;
+    height: 50%;
+    background: rgb(141, 68, 19);
+    border-radius: 50%;
+}
+
+.nose {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    width: 40%;
+    height: 30%;
+    background: black;
+    border-radius: 50%;
+}
+
+.mouth {
+    position: absolute;
+    top: 35%;
+    width: 40%;
+    height: 45%;
+    border-radius: 50%;
+}
+
+.mouth-left {
+    left: 11%;
+    box-shadow: black inset -2px  -5px 0px 1px;
+}
+
+.mouth-right {
+    right: 11%;
+    box-shadow: black inset 2px  -5px 0px 1px;
+}
+
+.eye {
+    position: absolute;
+    top:32%;
+    width: 17%;
+    height: 22%;
+    border-radius: 50%;
+    background: white;
+}
+
+.eye-left {
+    left: 23%;
+}
+
+.eye-right {
+    right: 23%;
+}
+
+.pupil {
+    position: absolute;
+    top:30%;
+    left: 25%;
+    width: 50%;
+    height: 60%;
+    border-radius: 50%;
+    background: black;
+}
