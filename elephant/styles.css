@@ -1,0 +1,130 @@
+body {
+    background: rgb(191, 116, 200);
+}
+
+.box {
+    position: relative;
+    margin: auto;
+    display: block;
+    margin-top: 8%;
+    width: 600px;
+    height: 420px;
+    background: none;
+}
+
+.border {    
+    border: black 4px solid;
+}
+
+.no-border {    
+    margin: 4px;
+}
+
+.head {
+    position: absolute;
+    top: 12%;
+    left: 27%;
+    width: 46%;
+    height: 60%;
+    background: rgb(90, 84, 93);
+    border-radius: 50%;
+}
+
+.ear {
+    position: absolute;
+    top: -35%;
+    width: 110%;
+    height: 160%;
+    background: rgb(90, 84, 93);
+    border-radius: 50%;
+}
+
+.ear-left {
+    left: -75%;
+}
+
+.ear-right {
+    right: -75%;
+    transform: scaleX(-1);
+}
+
+.ear-inner {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 95%;
+    height: 90%;
+    background: rgb(54, 51, 56);
+    border-radius: 50%;
+}
+
+.eye {
+    position: absolute;
+    top: 35%;
+    width: 15%;
+    height: 20%;
+    background: black;
+    border-radius: 50%;
+}
+
+.eye-left {
+    left: 27%;
+}
+
+.eye-right {
+    right: 27%;
+}
+
+.pupil {
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    width: 10%;
+    height: 10%;
+    background: white;
+    border-radius: 50%;
+}
+
+.trunk {
+    position: absolute;
+    top: 70%;
+    left: 36%;
+    width: 25%;
+    height: 70%;
+    background: rgb(90, 84, 93);
+    border-radius: 10%;
+}
+
+.trunk-overlay {
+    height: 80%;
+    top: 60%;
+}
+
+.mouth {
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    width: 90%;
+    height: 20%;
+    background: rgb(126, 119, 131);
+    border-radius: 30%;
+    transform: rotate(20deg);
+}
+
+.tusk {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    top: 70%;
+    box-shadow: white inset 23px 0px 0px 3px;
+    border-radius: 50%;
+}
+
+.tusk-left {
+    left: 20%
+}
+
+.tusk-right {
+    right: 20%;
+    transform: scaleX(-1);
+}
