@@ -1,0 +1,141 @@
+body {
+    background: rgb(223, 107, 12);
+}
+
+.box {
+    position: relative;
+    margin: auto;
+    display: block;
+    margin-top: 8%;
+    width: 600px;
+    height: 420px;
+    background: none;
+}
+
+.head {
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    width: 40%;
+    height: 70%;
+    background: white;
+    border-radius: 50%;
+}
+
+.mouth {
+    position: absolute;
+    top: 40%;
+    left: -10%;
+    width: 120%;
+    height: 60%;
+    background: pink;
+    border-radius: 50%;
+}
+
+.ear {
+    position: absolute;
+    top: 0%;
+    width: 30%;
+    height: 20%;
+    border-radius: 50% 10%;
+}
+
+.ear-left {
+    left: -10%;
+    background: white;
+    transform: rotate(45deg);
+}
+
+.ear-right {
+    right: -10%;
+    background: black;
+    transform: scaleX(-1) rotate(45deg);
+}
+
+.ear-inner {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    height: 80%;
+    background: pink;
+    border-radius: 50% 10%;
+}
+
+.eye {
+    position: absolute;
+    top: 30%;
+    width: 10%;
+    height: 10%;
+    background: black;
+    border-radius: 45%;
+}
+
+.eye-left {
+    left: 30%;
+}
+
+.eye-right {
+    right: 30%;
+}
+
+.eye-inner {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    width: 30%;
+    height: 30%;
+    background: white;
+    border-radius: 45%;
+}
+
+.nostril {
+    position: absolute;
+    top: 20%;
+    width: 10%;
+    height: 10%;
+    background: salmon;
+    border-radius: 45%;
+    border: rgb(139, 70, 62) 3px solid;
+}
+
+.nostril-left {
+    left: 25%;
+}
+
+.nostril-right {
+    right: 25%;
+}
+
+.horn {
+    position: absolute;
+    top: -3%;
+    width: 10%;
+    height: 20%;
+    background: white;
+    box-shadow: black 0px 0px 0px 3px;
+    border-top-left-radius: 200% 100%;
+    border-bottom-left-radius: 200% 100%;
+}
+
+.horn-left {
+    left: 20%;
+    transform: rotate(-45deg);
+}
+
+.horn-right {
+    right: 20%;
+    transform: scaleX(-1) rotate(-45deg);
+}
+
+.spot {
+    position: absolute;
+    top: 5%;
+    right: 17%;
+    width: 18%;
+    height: 25%;
+    background: black;
+    border-top-left-radius: 200% 100%;
+    border-bottom-left-radius: 200% 100%;
+    transform: rotate(-45deg);
+}
