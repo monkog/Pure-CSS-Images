@@ -4,6 +4,6 @@ This repository is a set of images created by using HTML and CSS only. They are 
 
 |![Coala](./.Docs/001-coala.jpg)|![Pizza](.Docs/002-pizza.jpg)|![Corgi](.Docs/003-corgi.jpg)|![Bear](.Docs/004-bear.jpg)|![Elephant](.Docs/005-elephant.jpg)|
 |---------------|---------------|---------------|---------------|---------------|
-|![Hippo](.Docs/006-hippo.jpg)|![Cow](.Docs/007-cow.jpg)||||
+|![Hippo](.Docs/006-hippo.jpg)|![Cow](.Docs/007-cow.jpg)|![Pig](.Docs/008-pig.jpg)|||
 
 [Go to top](#pure-css-images)

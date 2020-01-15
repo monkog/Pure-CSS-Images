@@ -1,0 +1,140 @@
+body {
+    background: rgb(12, 223, 125);
+}
+
+.box {
+    position: relative;
+    margin: auto;
+    display: block;
+    margin-top: 8%;
+    width: 600px;
+    height: 420px;
+    background: none;
+}
+
+.pink {
+    background: pink;
+    border: salmon 5px solid;
+}
+
+.head {
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    width: 60%;
+    height: 80%;
+    border-radius: 50%;
+}
+
+.nose {
+    position: absolute;
+    top: 50%;
+    left: 28%;
+    width: 40%;
+    height: 30%;
+    border-radius: 50%;
+}
+
+.nostril {
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    top: 40%;
+    border-radius: 50%;
+    background: black;
+    border: salmon 3px solid;
+}
+
+.nostril-left {
+    left: 20%;
+}
+
+.nostril-right {
+    right: 20%;
+}
+
+.ear {
+    position: absolute;
+    width: 50%;
+    height: 40%;
+    top: -15%;
+    background: salmon;
+    -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.ear-left {
+    left: -15%;
+    transform: rotate(-40deg);
+}
+
+.ear-right {
+    right: -15%;
+    transform: rotate(40deg);
+}
+
+.ear-inner {
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    top: 5%;
+    left: 5%;
+    background: pink;
+    -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.eye {
+    position: absolute;
+    width: 20%;
+    height: 25%;
+    top: 25%;
+    background: black;
+    box-shadow: white inset 7px 3px;
+    border-radius: 50%;
+}
+
+.eye-left {
+    left: 20%;
+}
+
+.eye-right {
+    right: 20%;
+}
+
+.eye-reflection-big {
+    position: absolute;
+    width: 20%;
+    height: 25%;
+    top: 30%;
+    left: 30%;
+    background: white;
+    border-radius: 50%;
+}
+
+.eye-reflection-small {
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    top: 60%;
+    left: 30%;
+    background: white;
+    border-radius: 50%;
+}
+
+.cheek {
+    position: absolute;
+    width: 25%;
+    height: 20%;
+    top: 50%;
+    box-shadow: rgba(250, 128, 114, 0.315) inset 0px 5px;
+    border-radius: 50%;
+}
+
+.cheek-left {
+    left: 5%;
+}
+
+.cheek-right {
+    right: 5%;
+}
