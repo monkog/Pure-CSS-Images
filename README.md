@@ -24,7 +24,7 @@ Let's create a pure CSS image of an egg. A boiled egg cut in a half, to be preci
 
 The definition of the egg image tree will be placed inside the `<body/>` tag. The egg will consist of three `<div/>` objects, each placed as the child of the previous one. As the styles will be defined in the `styles.css` file, we need to attach it to the HTML file. This will be done using the `<link/>` node inside the `<head/>` node of the HTML file.
 
-The first `<div/` will define the egg area. It will have its `class` attribute set to `egg`. With this object we will define the dimensions and the position of the image that we will draw.
+The first `div` will define the egg area. It will have its `class` attribute set to `egg`. With this object we will define the dimensions and the position of the image that we will draw.
 
 The second `div` will be the egg white. It will have its `class` attribute set to `egg-white`. We will place this object inside the `div` with the `egg` class. This way the drawing will be visible within the previously defined area.
 
