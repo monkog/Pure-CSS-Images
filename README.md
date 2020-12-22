@@ -41,7 +41,7 @@ The complete HTML file will look like this:
 <body>
     <div class="egg">
         <div class="egg-white">
-            <div class="egg-yolk"/>
+            <div class="egg-yolk"></div>
         </div>
     </div>
 </body>
