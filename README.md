@@ -16,11 +16,7 @@ The HTML file will hold the image defined as a tree of `<div/>` elements. Each `
 
 ## Example
 
-<div style="position: relative; display: block; width: 54px; height: 70px;">
-    <div style="position: absolute;width: 95%;height: 95%; border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%; background: white; border: black 5px solid;">
-        <div style="position: absolute; top: 40%; left: 20%; width: 60%; height: 50%; border-radius: 50%; background: darkorange; border: none;/>
-    </div>
-</div>
+![Egg image](./.Docs/000-egg.jpg)
 
 Let's create a pure CSS image of an egg. A boiled egg cut in a half, to be precise :egg:.
 
